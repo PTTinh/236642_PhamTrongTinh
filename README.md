@@ -17,6 +17,6 @@ URL của frontend là: https://web-236642.onrender.com/
 
 
 ## Câu 8: Cập nhật URL backend vào
-URL của backend là: https://-236642.onrender.com/
+URL của backend là: https://api-236642.onrender.com/
 
 ## Câu 9: Kiểm tra tổng thể và hoàn thiện bài nộp
