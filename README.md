@@ -1,0 +1,1 @@
+Xây dựng ứng dụng quản lý món ăn gồm frontend, backend API và cơ sở dữ liệu MongoDB Atlas; quản lý mã nguồn bằng GitHub; đóng gói ứng dụng bằng Docker, đẩy image lên Docker Hub và triển khai hệ thống trên Render.
