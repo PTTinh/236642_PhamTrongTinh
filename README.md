@@ -6,3 +6,8 @@ Xây dựng ứng dụng quản lý món ăn gồm frontend, backend API và cơ
 
 **Chạy container:**
 `docker run -d -p 5000:5000 -e MONGO_URI="<Chuỗi_kết_nối_MongoDB_của_bạn>" phamtrongtinh/backend`
+
+## Câu 6: Hướng dẫn chạy Frontend bằng Docker
+```bash
+docker pull phamtrongtinh/frontend
+docker run -d -p 80:80 phamtrongtinh/frontend
