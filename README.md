@@ -11,7 +11,7 @@ Xây dựng ứng dụng quản lý món ăn gồm frontend, backend API và cơ
 ```bash
 docker pull phamtrongtinh/frontend
 docker run -d -p 80:80 phamtrongtinh/frontend
-
+```
 ## Câu 7: Cập nhật URL frontend vào
 URL của frontend là: https://web-236642.onrender.com/
 
