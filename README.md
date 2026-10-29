@@ -14,3 +14,7 @@ docker run -d -p 80:80 phamtrongtinh/frontend
 
 ## Câu 7: Cập nhật URL frontend vào
 URL của frontend là: https://web-236642.onrender.com/
+
+
+## Câu 8: Cập nhật URL backend vào
+URL của backend là: https://-236642.onrender.com/
