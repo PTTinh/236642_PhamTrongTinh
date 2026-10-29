@@ -58,17 +58,17 @@ app.get('/api/foods', async (req, res) => {
   }
 });
 
-// 2. Xem thông tin một món ăn (theo ObjectId _id của MongoDB)
-// GET /api/foods/:id
+// 2. Xem thông tin một món ăn theo mã foodId
+// GET /api/foods/:id (Ví dụ: /api/foods/F001)
 app.get('/api/foods/:id', async (req, res) => {
   try {
-    const food = await Food.findById(req.params.id);
+    const food = await Food.findOne({ foodId: req.params.id });
     if (!food) {
-      return res.status(404).json({ error: 'Không tìm thấy món ăn' });
+      return res.status(404).json({ error: 'Không tìm thấy món ăn với mã này' });
     }
     res.status(200).json(food);
   } catch (err) {
-    res.status(400).json({ error: 'ID không hợp lệ', details: err.message });
+    res.status(500).json({ error: 'Lỗi khi lấy thông tin món ăn', details: err.message });
   }
 });
 
